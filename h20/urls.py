@@ -20,6 +20,7 @@ from django.conf import settings
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$',views.h20),
+    url(r'^login/$',views.login),
     url(r'^index/$',views.index),
     url(r'^logout/$',views.logout),
 ]
